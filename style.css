@@ -1,0 +1,90 @@
+* {
+    font-family: "Roboto";
+}
+
+.container .logo {
+    width: 130px;
+    height: 100px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .container2 {
+    margin-left: 80px;
+}
+
+.container2 {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+
+.container2 a {
+    text-decoration: none;
+    color: orange;
+}
+
+.container .container2 .bookNow {
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(0, 70, 128);
+    border: 2px solid;
+    border-radius: 12px
+}
+
+.background {
+    width: 100%;
+    height: auto;
+}
+
+.container3 {
+    display: flex;
+}
+.container3 .followUs {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-left: auto;
+    gap: 20px;
+}
+
+.container3 img {
+    width: 40px;
+    height: 40px;
+}
+
+.container3 .contact {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.facilities {
+    display: flex;
+    flex-direction: row;
+}
+
+.facilities .bar {
+    margin-left: auto;
+
+}
+.facilities .bar img {
+    width: 700px;
+    height: 360px;
+}
+
+.bookForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(0, 70, 128);
+    border: 2px solid;
+    border-radius: 12px
+}
